@@ -87,7 +87,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-DONATION_LINK = "https://t.me/shaeep43"
+DONATION_LINK = "https://t.me/LIONS_OF_PUNJAB"
 
 start_txt = """
 ʜᴇʏ🥀 `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ!!
@@ -106,19 +106,11 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ", url=f"t.me/{bu}?startgroup=true"
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"t.me/{bu}?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="IRO_"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-    ],
-    [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="IRO_"),
     ],
 ]
 
@@ -419,31 +411,21 @@ def help_button(update, context):
     except BadRequest:
         pass
 
-
 def IRO_about_callback(update, context):
     query = update.callback_query
     if query.data == "IRO_":
         query.message.edit_text(
-            text=f"๏ I'm [{BOT_NAME}](https://t.me/Iro_m_bot), ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ."
-            "\n» ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
-            "\n» ɪ ᴀᴍ ʙᴜɪʟᴛ ᴡɪᴛʜ [ᴘʏᴛʜᴏɴ](https://www.python.org/) ,[ᴍᴏɴɢᴏᴅʙ](https://www.mongodb.com/)."
-            "\n» ᴍʏ ʙᴀꜱᴇ ɪꜱ ᴍᴀᴅᴇ ᴜᴘ ᴏꜰ [ᴛᴇʟᴇᴛʜᴏɴ](https://github.com/LonamiWebs/Telethon) ᴀɴᴅ [ᴘʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)."
-            "\n» ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
-            "\n» ɪ ʜᴀᴠᴇ ɴꜱᴡꜰ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛꜱ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ᴛʜᴇ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ᴘᴏʀɴᴏɢʀᴀᴘʜɪᴄ ᴄᴏɴᴛᴇɴᴛꜱ."
-            "\n» ɪ ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴘᴀᴍꜱ ᴀɴᴅ ʀᴀɪᴅꜱ."
-            "\n» ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ᴛᴏᴏʟꜱ ꜰᴏʀ ꜰᴜɴ ᴀɴᴅ ᴇɴᴊᴏʏᴍᴇɴᴛ ᴛᴏ ᴇɴᴛᴇʀᴛᴀɪɴ ʏᴏᴜ ᴀʟʟ"
-            "\n» ɪ ᴀᴍ ᴘᴜʙʟɪꜱʜᴇᴅ ᴜɴᴅᴇʀ ʟɪᴄᴇɴꜱᴇ :- [ɢɴᴜ ʟɪᴄᴇɴꜱᴇ](https://github.com/IR-O/IRO_ROBOT/blob/main/LICENSE)"
-            "\n\n 𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧𝗜𝗡𝗚 𝗨𝗦",
+            text=f"➖➖➖➖➖➖➖➖➖➖➖ \n ๏ I'M SQUARE YOUR GROUP! \n 
+➻ THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE! \n 
+➻ ANY HELP VISIT @LIONS_OF_PUNJAB \n ➻ THANKS FOR USING AUJLA BOTS. \n
+➖➖➖➖➖➖➖➖➖➖➖",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/shaeep43"),
-                 ],
-                 [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"https://github.com/IR-O/IRO_ROBOT"),
+        InlineKeyboardButton(text="ᴍᴀɴɢᴍᴇɴᴛ", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="settings_back_helper"),
                  ],
                  [
                     InlineKeyboardButton(text="◁", callback_data="IRO_back"),
@@ -451,6 +433,7 @@ def IRO_about_callback(update, context):
                 ]
             ),
         )
+
 
 
     elif query.data == "IRO_back":
@@ -776,11 +759,11 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/76242492a4a2d080875af.mp4",
+                animation="https://graph.org/file/55ca023ee8065a6956ca5.mp4",
                 caption=f"""
 ㅤ{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 ━━━━━━━━━━━━━
-» **ᴏᴡɴᴇʀ :** [Pi͢͢͢kสcђu♡](https://t.me/{OWNER_USERNAME})
+» **ᴏᴡɴᴇʀ :** [꓄ꏂ꒻ꀤꈤꀷꏂꋪ ♡ ꍏꀎ꒻꒒ꍏ](https://t.me/{OWNER_USERNAME})
 » **ʟɪʙʀᴀʀʏ  :** `{so}`
 » **ᴛᴇʟᴇᴛʜᴏɴ :** `{am}`
 » **ᴘʏʀᴏɢʀᴀᴍ :** `{do}`
@@ -788,7 +771,7 @@ def main():
 » **ꜱQʟᴀʟᴄʜᴇᴍʏ :** `1.4.31`
 ━━━━━━━━━━━━━
 
-⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [𝙄𝙍𝙊](https://t.me/iro_bot_support)
+⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [꒒ꀤꂦꈤꌚ ꂦꎇ ᖘꀎꈤ꒻ꍏꌃ](https://t.me/LIONS_OF_PUNJAB)
 
 """,
                 parse_mode=ParseMode.MARKDOWN,
@@ -860,7 +843,7 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info(
-        f"BOT STARTED SUCCESSFULLY IF YOU FACE ANY ISSUE THEN JOIN @iro_x_support : {str(ALL_MODULES)}"
+        f"BOT STARTED SUCCESSFULLY IF YOU FACE ANY ISSUE THEN JOIN @LIONS_OF_PUNJAB : {str(ALL_MODULES)}"
     )
     telethn.start(bot_token=TOKEN)
     pbot.start()
