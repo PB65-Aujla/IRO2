@@ -53,7 +53,7 @@
 	
   <h1>
     <p align="center">
-        <a href="https://dashboard.heroku.com/new?template=https://github.com/IR-O/IRO_ROBOT">
+        <a href="https://dashboard.heroku.com/new?template=https://github.com/PB65-Aujla/IRO2">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
 </h1>
