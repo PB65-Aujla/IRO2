@@ -15,20 +15,20 @@ class Config(object):
     API_ID = 123456  # integer value, dont use "" this sign get it form my.telegram.org
     API_HASH = "" # get it form my.telegram.org
     TOKEN = ""  # get it form @botfather.
-    OWNER_ID = 6045293810  # got to @Iro_m_bot and type /id
-    OWNER_USERNAME = "shaeep43" # your telegram username
+    OWNER_ID = 6812324137  # got to @Iro_m_bot and type /id
+    OWNER_USERNAME = "PB65_Aujla" # your telegram username
     ALLOW_CHATS = True # leave it as it is
-    BOT_USERNAME = "Iro_m_bot" # your bot username get it form @botfather
-    SUPPORT_CHAT = "iro_x_support"  # Your own group for support, do not add the @ if you dont have leave it as it is
-    UPDATES_CHANNEL = "iro_bot_support"  # Your own chsnnel for support, do not add the @ if you dont have leave it as it is
+    BOT_USERNAME = "Navneet_Robot" # your bot username get it form @botfather
+    SUPPORT_CHAT = "LIONS_OF_PUNJAB"  # Your own group for support, do not add the @ if you dont have leave it as it is
+    UPDATES_CHANNEL = "Aujla_Network"  # Your own chsnnel for support, do not add the @ if you dont have leave it as it is
     JOIN_LOGGER =  (
-        -1001690301851
+        -1001921678575
     )  # add @Iro_m_bot in your group and type /id
     EVENT_LOGS = (
-        -1001690301851
+        -1001921678575
     )  # add @Iro_m_bot in your group and type /id
     ERROR_LOG = (
-        -1001690301851
+        -1001921678575
     )  # add @Iro_m_bot in your group and type /id
     STRICT_GMUTE = True #to allow gmutes
     START_STICKER = "" #sticker id for start animation
@@ -54,15 +54,15 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = [6045293810]
+    DRAGONS = [6812324137]
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = [6045293810]
+    DEV_USERS = [6812324137]
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = [6045293810]
+    DEMONS = [6812324137]
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = [6045293810]
-    WOLVES = [6045293810]
-    START_IMG = "https://te.legra.ph/file/32018201f5562ffa3fcc9.jpg" #yor fav img link
+    TIGERS = [6812324137]
+    WOLVES = [6812324137]
+    START_IMG = "https://graph.org/file/55ca023ee8065a6956ca5.mp4" #yor fav img link
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
@@ -74,9 +74,9 @@ class Config(object):
     BAN_STICKER = None  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "Y8PLP1SQTRPQOR9P"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "KT0E715ZOR89"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
