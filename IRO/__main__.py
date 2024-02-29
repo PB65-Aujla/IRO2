@@ -415,10 +415,7 @@ def IRO_about_callback(update, context):
     query = update.callback_query
     if query.data == "IRO_":
         query.message.edit_text(
-            text=f"➖➖➖➖➖➖➖➖➖➖➖ \n ๏ I'M SQUARE YOUR GROUP! \n 
-➻ THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE! \n 
-➻ ANY HELP VISIT @LIONS_OF_PUNJAB \n ➻ THANKS FOR USING AUJLA BOTS. \n
-➖➖➖➖➖➖➖➖➖➖➖",
+            text=f"➻ANY HELP VISIT @LIONS_OF_PUNJAB 🌹THANKS FOR USING AUJLA BOTS🤖",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
