@@ -87,7 +87,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-DONATION_LINK = "https://t.me/The_ChatGroup"
+DONATION_LINK = "https://t.me/LIONS_OF_PUNJAB"
 
 start_txt = """
 ʜᴇʏ🥀 `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ!!
@@ -106,15 +106,11 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕   ᴀᴅᴅ ᴍᴇ   ➕", url=f"t.me/{bu}?startgroup=true"
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"t.me/{bu}?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text="☑️ ᴄᴏᴍᴍᴀɴᴅꜱ ☑️", callback_data="IRO_"),
-    ],
-    [
-        InlineKeyboardButton(text="🔘sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs🔘", url=f"https://t.me/{UPDATES_CHANNEL}"),
+        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="IRO_"),
     ],
 ]
 
@@ -426,8 +422,8 @@ def IRO_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-        InlineKeyboardButton(text="🖱️ 𝖬𝖠𝖭𝖦𝖬𝖤𝖭𝖳", callback_data="help_back"),
-        InlineKeyboardButton(text="𝖬𝖴𝖲𝖨𝖢 🖱️", callback_data="settings_back_helper"),
+        InlineKeyboardButton(text="ᴍᴀɴɢᴍᴇɴᴛ", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="settings_back_helper"),
                  ],
                  [
                     InlineKeyboardButton(text="◁", callback_data="IRO_back"),
@@ -711,7 +707,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 6608713615:
+        if OWNER_ID != 6812324137:
             update.effective_message.reply_text(
                 "ɪ'ᴍ ꜰʀᴇᴇ ꜰᴏʀ ᴇᴠᴇʀʏᴏɴᴇ 🖤 ɪꜰ ʏᴏᴜ ᴡᴀɴɴᴀ ᴍᴀᴋᴇ ᴍᴇ ꜱᴍɪʟᴇ, ᴊᴜꜱᴛ ᴊᴏɪɴ"
                 "[My Channel]({})".format(DONATION_LINK),
@@ -760,7 +756,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://graph.org/file/1434fa96a918522342c13.mp4",
+                animation="https://graph.org/file/55ca023ee8065a6956ca5.mp4",
                 caption=f"""
 ㅤ{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 ━━━━━━━━━━━━━
@@ -772,7 +768,7 @@ def main():
 » **ꜱQʟᴀʟᴄʜᴇᴍʏ :** `1.4.31`
 ━━━━━━━━━━━━━
 
-⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [PB65AUJLA](https://t.me/The_ChatGroup)
+⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [LIONS OF PUNJAB](https://t.me/LIONS_OF_PUNJAB)
 
 """,
                 parse_mode=ParseMode.MARKDOWN,
@@ -844,7 +840,7 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info(
-        f"BOT STARTED SUCCESSFULLY IF YOU FACE ANY ISSUE THEN JOIN @iro_x_support : {str(ALL_MODULES)}"
+        f"BOT STARTED SUCCESSFULLY IF YOU FACE ANY ISSUE THEN JOIN @LIONS_OF_PUNJAB : {str(ALL_MODULES)}"
     )
     telethn.start(bot_token=TOKEN)
     pbot.start()
