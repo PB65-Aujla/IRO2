@@ -10,15 +10,17 @@ from IRO import telethn as tbot
 from IRO.events import register
 
 PHOTO = [
-    "https://telegra.ph/file/4fb072fa4a0c834f8a0f6.jpg",
-    "https://telegra.ph/file/4fb072fa4a0c834f8a0f6.jpg",
+    "https://graph.org/file/55ca023ee8065a6956ca5.mp4",
+    "https://graph.org/file/dcce712ff7b8133fc32ea.mp4",
+    "https://graph.org/file/3f9c10e7056ca31f60b75.jpg",
+    "https://graph.org/file/2014271ca39345f83024b.jpg",
 ]
 
 
 @register(pattern=("/alive"))
 async def awake(event):
     TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ {dispatcher.bot.first_name}**\n━━━━━━━━━━━━━━━━━━━\n\n"
-    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀs​ : [Pi͢͢͢kสcђu](https://t.me/{OWNER_USERNAME})\n\n"
+    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀs​ : [꓄ꏂ꒻ꀤꈤꀷꏂꋪ ꍏꀎ꒻꒒ꍏ](https://t.me/{OWNER_USERNAME})\n\n"
     TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
     TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
     TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
